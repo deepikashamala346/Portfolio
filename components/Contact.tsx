@@ -40,7 +40,7 @@ const Contact: React.FC = () => {
         </p>
         <form
           method="POST"
-          action="https://formsubmit.co/5c2450c92c1391e8e464005f354bf76b"
+          action="https://formsubmit.co/deepikashamala346@gmail.com"
           className="hidden"
           ref={hiddenFormRef}
         >
@@ -50,23 +50,22 @@ const Contact: React.FC = () => {
             value="🚀 New Collaboration Request - Deepika Shamala's Portfolio"
           />
           <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_cc" value="devdeskweb@gmail.com"></input>
           <input
             type="hidden"
             name="_autoresponse"
-            value="Thank You for response"
-          ></input>
-          {/* <input type="hidden" name="_captcha" value="false" /> */}
-          {/* <input type="hidden" name="_next" value="nextRedirectUrl" /> */}
+            value="Thank you for reaching out! I'll get back to you soon."
+          />
           <input
             type="hidden"
             name=""
-            value="Dear Deepika, you have received a new form submission from a user. Please have a look on it"
+            value="Dear Deepika, you have received a new form submission from your portfolio site."
           />
-          <input type="hidden" name="Name" value={name} />
+          <input type="hidden" name="name" value={name} />
           <input type="hidden" name="email" value={email} />
-          <input type="hidden" name="Message" value={message} />
+          <input type="hidden" name="message" value={message} />
         </form>
+
+        {/* Visible Form */}
         <form onSubmit={handleSubmit} className="space-y-6">
           <input
             type="text"
@@ -106,6 +105,7 @@ const Contact: React.FC = () => {
             Send Message
           </button>
         </form>
+
         <div
           className="mt-8 opacity-0 animate-fade-in-up"
           style={{ animationDelay: "600ms" }}
