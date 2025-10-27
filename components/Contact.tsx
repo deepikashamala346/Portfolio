@@ -111,7 +111,7 @@ const Contact: React.FC = () => {
           style={{ animationDelay: "600ms" }}
         >
           <a
-            href=""
+            href="/images/Deepika_Shamala_Resume.pdf"
             download
             className="inline-block bg-light-surface dark:bg-dark-surface text-light-onSurface dark:text-dark-onSurface font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 dark:hover:bg-gray-700 transform hover:scale-105 transition-all duration-300"
           >
