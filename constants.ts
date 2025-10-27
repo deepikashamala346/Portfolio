@@ -25,7 +25,7 @@ import {
   TypescriptIcon,
   VercelIcon,
   SqlServerIcon,
-} from "./components/icons/TechIcons";//icons
+} from "./components/icons/TechIcons";
 
 export const NAV_LINKS = [
   { name: "About", href: "#about" },
@@ -41,28 +41,28 @@ export const PROJECTS: Project[] = [
     title: "SwitchFxTech",
     description:
       "A US-based platform for rehabilitation management. Implemented session timeouts, optimized performance, and integrated Polly Circuit Breaker for fault tolerance.",
-    imageUrl: "/assets/projects/SwitchFxTech.jpg",
+    imageUrl: "/images/projects/SwitchFxTech.jpg",
     tags: ["ASP.NET Core", "Angular", "PostgreSQL", "JavaScript", "CSS"],
   },
   {
     title: "PayRevision",
     description:
       "An EdTech platform for student-tutor interactions. Implemented Unit of Work pattern, integrated Serilog for logging, and automated session management.",
-    imageUrl: "/assets/projects/Payrevision.jpg",
+    imageUrl: "/images/projects/Payrevision.jpg",
     tags: ["REST API", "Xunit"],
   },
   {
     title: "BUZZ",
     description:
       "A platform for managing employee information and project assignments. Authored a resource request module and built a real-time ReactJS dashboard.",
-    imageUrl: "/assets/projects/Buzz.jpg",
+    imageUrl: "/images/projects/Buzz.jpg",
     tags: ["C#", "WebAPI", "Entity Framework", "CSS", "Dapper"],
   },
   {
     title: "HRMS Portal",
     description:
       "A platform for efficient employee onboarding, leave management, and attendance tracking. Developed various modules and a scalable SQL Server database schema.",
-    imageUrl: "/assets/projects/HRMS.jpg",
+    imageUrl: "/images/projects/HRMS.jpg",
     tags: ["C#", "WebAPI", "Dapper", "Angular", "SQL Server"],
   },
 ];

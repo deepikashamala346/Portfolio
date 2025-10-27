@@ -13,7 +13,7 @@ const About: React.FC = () => {
           <div className="relative group">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-200 dark:bg-gray-700">
               <img
-                src="/assets/deepika.jpg"
+                src="/images/deepika.jpg"
                 alt="Deepika Shamala"
                 loading="lazy"
                 className="rounded-full w-full h-full object-cover shadow-lg transition-transform duration-300 group-hover:scale-105"
