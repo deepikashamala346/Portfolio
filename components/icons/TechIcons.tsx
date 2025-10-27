@@ -1,6 +1,6 @@
 import Angular17Icon from "../../assets/tech-stacks/angular17.svg";
 import AtlassianIcon from "../../assets/tech-stacks/atlassian.svg";
-import AWSIcon from "../../assets/tech-stacks/AWS.svg";
+import AWSIcon from "../../assets/tech-stacks/aws.svg";
 import Bootstrap5Icon from "../../assets/tech-stacks/bootstrap5.svg";
 import CloudflareIcon from "../../assets/tech-stacks/cloudflare.svg";
 import CSharpIcon from "../../assets/tech-stacks/csharp.svg";
