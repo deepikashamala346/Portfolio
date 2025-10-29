@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
           style={{ animationDelay: "600ms" }}
         >
           <a
-            href="/images/DeepikaShamala_FullStackDev_Resume.pdf"
+            href="/images/DeepikaShamala_FullStackDev_Resume_2025.pdf"
             download
             className="inline-block bg-light-surface dark:bg-dark-surface text-light-onSurface dark:text-dark-onSurface font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 dark:hover:bg-gray-700 transform hover:scale-105 transition-all duration-300"
           >
