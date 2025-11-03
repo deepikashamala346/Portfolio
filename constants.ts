@@ -33,7 +33,7 @@ export const NAV_LINKS = [
   { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
   { name: "Education", href: "#education" },
-  // { name: "Contact", href: "#contact" },
+  { name: "Contact", href: "#contact" },
 ];
 
 export const PROJECTS: Project[] = [
